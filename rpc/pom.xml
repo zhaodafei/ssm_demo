@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>ssmm0</artifactId>
+        <groupId>com.feiwww</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.feiwww.ssmm0</groupId>
+    <artifactId>ssmm0-rpc</artifactId>
+
+    <packaging>jar</packaging>
+    <name>ssmm0-rpc</name>
+
+    <url>http://maven.apache.org</url>
+
+    <!-- 引入实际依赖 -->
+    <dependencies>
+        <!-- 引入自定义common模块 -->
+        <dependency>
+            <groupId>com.feiwww.ssmm0</groupId>
+            <artifactId>ssmm0-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- activemq -->
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-all</artifactId>
+            <version>5.5.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>ssmm0-rpc</finalName>
+    </build>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ssmm0-cache" />
+        <module name="ssmm0-common" />
+        <module name="ssmm0-data" />
+        <module name="ssmm0-rpc" />
+        <module name="ssmm0-rpcweb" />
+        <module name="ssmm0-ssmm" />
+        <module name="ssmm0-userManagement" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ssm" target="1.5" />
+      <module name="ssmm0-cache" target="1.5" />
+      <module name="ssmm0-common" target="1.5" />
+      <module name="ssmm0-data" target="1.5" />
+      <module name="ssmm0-rpc" target="1.5" />
+      <module name="ssmm0-rpcweb" target="1.5" />
+      <module name="ssmm0-ssmm" target="1.5" />
+      <module name="ssmm0-userManagement" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
