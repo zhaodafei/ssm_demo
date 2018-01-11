@@ -9,7 +9,7 @@
                            http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
 
     <!-- 注解扫描 -->
-    <context:component-scan base-package="com.feiwww.web.admin" />
+    <context:component-scan base-package="com.feiwww.web" />
 
     <!-- 这里需要引入ssmm0-data项目中配置的spring-data.xml(之前不引也可以成功，忘记怎么配置的了) -->
     <import resource="classpath:spring-data.xml"/>
